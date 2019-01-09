@@ -493,6 +493,8 @@ Stopping a bus controller requires two calls
 @snapend
 
 @snap[west span-50 fragment]
+<br>
+<br>
 <ul style="list-style-type:none; line-height:0.7;">
 	<li><span style="font-size:0.7em" >1. @color[yellow](Opens) PCI_IO Protocol</span></li>
 	<li><span style="font-size:0.7em" >2. Checks</span></li>
@@ -513,8 +515,10 @@ Stopping a bus controller requires two calls
 </ul>
 @snapend
 
-@snap[south-east span-50 fragment]
-<span style="font-size:0.8em" ><font color="yellow">`Supported()`</font></span>
+@snap[midpoint span-50 fragment]
+<br>
+<br>
+<p style="line-height:85%" align="left"><span style="font-size:0.9em" ><font color="yellow">`Supported()`</font></span></p>
 <ul style="list-style-type:disc; line-height:0.7;">
    <li><span style="font-size:0.7em" > Checks to see if a driver supports a controller </span></li>
    <li><span style="font-size:0.7em" > Check should not change hardware state of controller  </span></li>
