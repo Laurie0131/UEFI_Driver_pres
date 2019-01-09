@@ -472,6 +472,31 @@ Stopping a bus controller requires two calls
 
 
 
+---
+@title[Supported - PCI Controller Device Handle]
+<p align="right"><span class="gold" ><b>Supported - PCI Controller Device Handle</b></span></p>
+@snap[north-west span-50]
+<br>
+<table border="1" width="40%" bordercolor="#C0C0C0">
+	<tr>
+       <td bgcolor="#121212" height=".025"><p style="line-height:010%"><span style="font-size:0.8em" ><b>PCI Controller Device Handle</b></span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#404040" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`EFI_DEVICE_PATH_PROTOCOL`</b></span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#404040" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`EFI_DEVICE_PATH_PROTOCOL`</b></span></p></td>
+	</tr>
+</table>
+
+@snapend
+
+
+
+
+
+Note:
+
 
 ---?image=/assets/images/slides/Slide40.JPG
 @title[Supported - PCI Controller Device Handle]
