@@ -147,66 +147,10 @@ Note:
 
 
 
----?image=/assets/images/slides/Slide4.JPG
-<!-- .slide: data-transition="none" -->
-@title[Defining a UEFI Driver?]
-<p align="right"><span class="gold" >Defining a UEFI Driver?</span></p>
-
-Note:
-
-- An UEFI Loadable Image
-- May produce or consume protocols
-- Protocols are UEFI interfaces
-- Supports complex bus hierarchies
-- Driver Binding Protocol matches drivers to devices & adds version management
-- Supports specific hardware, can be unloaded or override an existing driver
-
-
-
-
-+++?image=/assets/images/slides/Slide5.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Defining a UEFI Driver? 02]
-<p align="right"><span class="gold" >Defining a UEFI Driver?</span></p>
-
-Note:
-
-
-
-+++?image=/assets/images/slides/Slide6.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Defining a UEFI Driver? 03]
-<p align="right"><span class="gold" >Defining a UEFI Driver?</span></p>
-
-Note:
-
-
-
-+++?image=/assets/images/slides/Slide7.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Defining a UEFI Driver? 04]
-<p align="right"><span class="gold" >Defining a UEFI Driver?</span></p>
-
-Note:
-
-
-
-+++?image=/assets/images/slides/Slide8.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Defining a UEFI Driver? 05]
-<p align="right"><span class="gold" >Defining a UEFI Driver?</span></p>
-
-Note:
-
-
 
 ---?image=/assets/images/slides/Slide10.JPG
 @title[UEFI Drivers - Location]
-<p align="right"><span class="gold" >UEFI Drivers - Location</span></p>
+<p align="right"><span class="gold" ><b>UEFI Drivers - Location</b></span></p>
 
 Note:
 
@@ -220,7 +164,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide12_1.JPG
 @title[UEFI Drivers - Location II]
-<p align="right"><span class="gold" >UEFI Drivers - Location</span></p>
+<p align="right"><span class="gold" ><b>UEFI Drivers - Location</b></span></p>
 
 Note:
 
@@ -231,7 +175,7 @@ Note:
 ---?image=/assets/images/slides/Slide14.JPG
 <!-- .slide: data-transition="none" -->
 @title[UEFI Drivers Vs. Applications]
-<p align="right"><span class="gold" >UEFI Drivers Vs. Applications</span></p>
+<p align="right"><span class="gold" ><b>UEFI Drivers Vs. Applications</b></span></p>
 
 Note:
 
@@ -241,7 +185,7 @@ Simlar to the Applications loading slide
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI Drivers Vs. Applications 02]
-<p align="right"><span class="gold" >UEFI Drivers Vs. Applications</span></p>
+<p align="right"><span class="gold" ><b>UEFI Drivers Vs. Applications</b></span></p>
 
 
 Note:
@@ -251,7 +195,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI Drivers Vs. Applications 03]
-<p align="right"><span class="gold" >UEFI Drivers Vs. Applications</span></p>
+<p align="right"><span class="gold" ><b>UEFI Drivers Vs. Applications</b></span></p>
 
 
 Note:
@@ -261,7 +205,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI Drivers Vs. Applications 04]
-<p align="right"><span class="gold" >UEFI Drivers Vs. Applications</span></p>
+<p align="right"><span class="gold" ><b>UEFI Drivers Vs. Applications</b></span></p>
 
 
 Note:
@@ -271,7 +215,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI Drivers Vs. Applications 05]
-<p align="right"><span class="gold" >UEFI Drivers Vs. Applications</span></p>
+<p align="right"><span class="gold" ><b>UEFI Drivers Vs. Applications</b></span></p>
 
 
 Note:
@@ -281,7 +225,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI Drivers Vs. Applications 06]
-<p align="right"><span class="gold" >UEFI Drivers Vs. Applications</span></p>
+<p align="right"><span class="gold" ><b>UEFI Drivers Vs. Applications</b></span></p>
 
 
 Note:
@@ -291,7 +235,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI Drivers Vs. Applications 07]
-<p align="right"><span class="gold" >UEFI Drivers Vs. Applications</span></p>
+<p align="right"><span class="gold" ><b>UEFI Drivers Vs. Applications</b></span></p>
 
 
 Note:
@@ -301,7 +245,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI Drivers Vs. Applications 08]
-<p align="right"><span class="gold" >UEFI Drivers Vs. Applications</span></p>
+<p align="right"><span class="gold" ><b>UEFI Drivers Vs. Applications</b></span></p>
 
 
 Note:
@@ -311,7 +255,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI Drivers Vs. Applications 09]
-<p align="right"><span class="gold" >UEFI Drivers Vs. Applications</span></p>
+<p align="right"><span class="gold" ><b>UEFI Drivers Vs. Applications</b></span></p>
 
 
 Note:
@@ -320,7 +264,7 @@ Note:
 ---?image=/assets/images/slides/Slide25.JPG
 <!-- .slide: data-transition="none" -->
 @title[Drivers Produce Protocols]
-<p align="right"><span class="gold" >Drivers Produce Protocols</span></p>
+<p align="right"><span class="gold" ><b>Drivers Produce Protocols</b></span></p>
 
 
 Note:
@@ -348,7 +292,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Drivers Produce Protocols 02]
-<p align="right"><span class="gold" >Drivers Produce Protocols</span></p>
+<p align="right"><span class="gold" ><b>Drivers Produce Protocols</b></span></p>
 
 
 Note:
@@ -359,7 +303,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Drivers Produce Protocols 03]
-<p align="right"><span class="gold" >Drivers Produce Protocols</span></p>
+<p align="right"><span class="gold" ><b>Drivers Produce Protocols</b></span></p>
 
 
 Note:
@@ -370,7 +314,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Drivers Produce Protocols 04]
-<p align="right"><span class="gold" >Drivers Produce Protocols</span></p>
+<p align="right"><span class="gold" ><b>Drivers Produce Protocols</b></span></p>
 
 
 Note:
@@ -381,7 +325,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Drivers Produce Protocols 05]
-<p align="right"><span class="gold" >Drivers Produce Protocols</span></p>
+<p align="right"><span class="gold" ><b>Drivers Produce Protocols</b></span></p>
 
 
 Note:
@@ -392,7 +336,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Drivers Produce Protocols 06]
-<p align="right"><span class="gold" >Drivers Produce Protocols</span></p>
+<p align="right"><span class="gold" ><b>Drivers Produce Protocols</b></span></p>
 
 
 Note:
@@ -403,7 +347,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Drivers Produce Protocols 07]
-<p align="right"><span class="gold" >Drivers Produce Protocols</span></p>
+<p align="right"><span class="gold" ><b>Drivers Produce Protocols</b></span></p>
 
 
 Note:
@@ -414,7 +358,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Drivers Produce Protocols 08]
-<p align="right"><span class="gold" >Drivers Produce Protocols</span></p>
+<p align="right"><span class="gold" ><b>Drivers Produce Protocols</b></span></p>
 
 
 Note:
@@ -425,11 +369,38 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Drivers Produce Protocols 09]
-<p align="right"><span class="gold" >Drivers Produce Protocols</span></p>
+<p align="right"><span class="gold" ><b>Drivers Produce Protocols</b></span></p>
 
 
 Note:
 
+
+---
+@title[UEFI Driver Binding Protocol]
+<p align="center"><span class="gold" ><b>UEFI Driver Binding Protocol</b></span></p>
+
+
+
+@snap[north-west span-30 fragment]
+<br>
+<br>
+<p style="line-height:40%" align="left"><span style="font-size:02.450em;" >@fa[star fa-spin gp-bullet-cyan] </span></p>
+@snapend
+
+@snap[north-east span-90 fragment]
+<br>
+<br>
+<p style="line-height:70%" align="left"><span style="font-size:01.25em;" >@color[yellow](`Supported`&lpar;&rpar;) </span> <span style="font-size:0.8em;" ><br> 
+Determines if a driver supports a controller </span></p>
+@snapend
+
+
+
+Note:
+
+- Supported ()
+- Start()
+- Stop()
 
 
 ---?image=/assets/images/slides/Slide35.JPG
