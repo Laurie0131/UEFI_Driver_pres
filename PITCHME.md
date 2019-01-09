@@ -67,60 +67,41 @@ Note:
 @title[Defining a UEFI Driver?]
 <p align="right"><span class="gold" ><b>Defining a UEFI Driver?</b></span></p>
 
-@snap[north-west span-50 fragment]
-<br>
-<br>
-<br>
-@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:40%" ><span style="font-size:01.250em; font-weight: bold;" > UEFI Loadable Image</span></p>)
-<br>
-@snapend
-
-
-@snap[north span-55 fragment]
-<br>
-<br>
-<br>
-<br>
-<br>
-@box[bg-navy text-white rounded my-box-pad2  ](<p style="line-height:40%" ><span style="font-size:01.250em; font-weight: bold;" >May produce/consume protocols</span></p>)
-<br>
-@snapend
-
-
-@snap[north-west span-50 fragment]
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-@box[bg-royal-pp text-white rounded my-box-pad2  ](<p style="line-height:40%" ><span style="font-size:01.250em; font-weight: bold;" > Supports complex bus hierarchies</span></p>)
-<br>
-@snapend
-
-
-
-@snap[north span-80 fragment]
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-@box[bg-lt-orange text-white rounded my-box-pad2  ](<p style="line-height:40%" ><span style="font-size:01.250em; font-weight: bold;" >Driver Binding Protocol matches drivers to devices, adds version management</span></p>)
-<br>
-@snapend
-
-
-
 @snap[north-west span-70 fragment]
 <br>
 <br>
 <br>
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" > UEFI Loadable Image</span></p>)
+<br>
+@snapend
+
+
+@snap[north span-75 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+@box[bg-navy text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" >May produce/consume protocols</span></p>)
+<br>
+@snapend
+
+
+@snap[north-west span-75 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+@box[bg-royal text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" > Supports complex bus hierarchies</span></p>)
+<br>
+@snapend
+
+
+
+@snap[north span-90 fragment]
 <br>
 <br>
 <br>
@@ -130,7 +111,26 @@ Note:
 <br>
 <br>
 <br>
-@box[bg-green2 text-white rounded my-box-pad2  ](<p style="line-height:40%" ><span style="font-size:01.250em; font-weight: bold;" > Supports specific hardware, can be unloaded or override an existing driver</span></p>)
+@box[bg-lt-orange text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" >Driver Binding Protocol matches drivers to devices, adds version management</span></p>)
+<br>
+@snapend
+
+
+
+@snap[north-west span-100 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+@box[bg-green2 text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" > Supports specific hardware, can be unloaded or override an existing driver</span></p>)
 <br>
 @snapend
 
