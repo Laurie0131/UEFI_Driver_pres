@@ -492,9 +492,38 @@ Stopping a bus controller requires two calls
 
 @snapend
 
+@snap[west span-50 fragment]
+<ul style="list-style-type:none; line-height:0.7;">
+	<li><span style="font-size:0.7em" >1. @color[yellow](Opens) PCI_IO Protocol</span></li>
+	<li><span style="font-size:0.7em" >2. Checks</span></li>
+	<li><span style="font-size:0.7em" >3. @color[yellow](Closes) PCI_IO Protocol</span></li>
+	<li><span style="font-size:0.7em" >4. Returns: Supported or Not Supported</span></li>
+</ul>
+@snapend
 
 
 
+@snap[north-east span-50 fragment]
+<br>
+<br>
+<ul style="list-style-type:disc; line-height:0.7;">
+  <li><span style="font-size:0.7em" > “This”  </span></li>
+  <li><span style="font-size:0.7em" >  Controller to manage</span></li>
+  <li><span style="font-size:0.7em" >  Remaining Device Path</span></li>
+</ul>
+@snapend
+
+@snap[south-east span-50 fragment]
+<span style="font-size:0.8em" ><font color="yellow">`Supported()`</font></span>
+<ul style="list-style-type:disc; line-height:0.7;">
+   <li><span style="font-size:0.7em" > Checks to see if a driver supports a controller </span></li>
+   <li><span style="font-size:0.7em" > Check should not change hardware state of controller  </span></li>
+   <li><span style="font-size:0.7em" > Minimize execution time, move complex I/O to Start() </span></li>
+   <li><span style="font-size:0.7em" > May be called for controller that is  already managed </span></li>
+   <li><span style="font-size:0.7em" > Child is optionally specified </span></li>
+</ul>
+ 
+@snapend
 
 Note:
 
