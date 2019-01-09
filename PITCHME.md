@@ -478,15 +478,15 @@ Stopping a bus controller requires two calls
 @snap[north-west span-50]
 <br>
 <br>
-<table border="1" width="100%" bordercolor="#C0C0C0">
+<table border="1" width="90%" bordercolor="#C0C0C0">
 	<tr>
-       <td bgcolor="#121212" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>PCI Controller Device Handle</b></span></p></td>
+       <td bgcolor="#121212" height=".025" align="center"><p style="line-height:010%"><span style="font-size:0.65em" ><b>PCI Controller Device Handle</b></span></p></td>
 	</tr>
 	<tr>
-		<td  bgcolor="#404040" height=".025"><p style="line-height:010%"><span style="font-size:0.45em" >`EFI_DEVICE_PATH_PROTOCOL`</span></p></td>
+		<td  bgcolor="#404040" height=".02"><p style="line-height:010%"><span style="font-size:0.45em" >`EFI_DEVICE_PATH_PROTOCOL`</span></p></td>
 	</tr>
 	<tr>
-		<td  bgcolor="#404040" height=".025"><p style="line-height:010%"><span style="font-size:0.45em" >`EFI_PCI_IO_PROTOCOL`</span></p></td>
+		<td  bgcolor="#404040" height=".02"><p style="line-height:010%"><span style="font-size:0.45em" >`EFI_PCI_IO_PROTOCOL`</span></p></td>
 	</tr>
 </table>
 
