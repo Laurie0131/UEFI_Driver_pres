@@ -78,8 +78,7 @@ Note:
 @snap[north span-65 fragment]
 <br>
 <br>
-<br>
-<p style="line-height:50%" ><br>&nbsp;</p>
+<p style="line-height:50%" ><br><br>&nbsp;</p>
 @box[bg-navy text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" >May produce/consume protocols<br>&nbsp;</span></p>)
 <br>
 @snapend
@@ -108,7 +107,6 @@ Note:
 <br>
 <br>
 <br>
-<br>
 <p style="line-height:50%" ><br>&nbsp;</p>
 @box[bg-lt-orange text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" >Driver Binding Protocol matches drivers to devices, adds version management</span></p>)
 <br>
@@ -117,6 +115,7 @@ Note:
 
 
 @snap[north-west span-100 fragment]
+<br>
 <br>
 <br>
 <br>
