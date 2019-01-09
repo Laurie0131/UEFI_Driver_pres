@@ -387,7 +387,7 @@ Note:
 <p style="line-height:40%" align="left"><span style="font-size:02.250em;" >@fa[star  gp-bullet-cyan] </span></p>
 @snapend
 
-@snap[north-east span-95 fragment]
+@snap[north-east span-85 fragment]
 <br>
 <br>
 <p style="line-height:80%" align="left"><span style="font-size:01.25em; font-family:Consolas;" >@color[yellow](Supported&lpar;&rpar;) </span> <span style="font-size:0.85em;" ><br> 
