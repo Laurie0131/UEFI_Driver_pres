@@ -1,6 +1,10 @@
 ---?image=assets/images/gitpitch-audience.jpg
 @title[UEFI_Driver_Pres]
-<br><br><br><br><br>
+<br><br><br>
+<span style="font-size:0.75em" >This slide deck has moved to:
+https://gitpitch.com/tianocore-training/UEFI_Driver_pres/master#/
+</span>
+<br><br>
 ## <span class="gold"   >UEFI & EDK II Training</span>
 
 #### How to Write a UEFI Driver
@@ -56,6 +60,94 @@ Note:
 <br><br><br><br><br><br><br>
 ### <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UEFI Driver Model </span>
 <span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+
+
+---
+@title[Defining a UEFI Driver?]
+<p align="right"><span class="gold" ><b>Defining a UEFI Driver?</b></span></p>
+
+@snap[north-west span-50 fragment]
+<br>
+<br>
+<br>
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:40%" ><span style="font-size:01.250em; font-weight: bold;" > UEFI Loadable Image</span></p>)
+<br>
+@snapend
+
+
+@snap[north span-55 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+@box[bg-navy text-white rounded my-box-pad2  ](<p style="line-height:40%" ><span style="font-size:01.250em; font-weight: bold;" >May produce/consume protocols</span></p>)
+<br>
+@snapend
+
+
+@snap[north-west span-50 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+@box[bg-royal-pp text-white rounded my-box-pad2  ](<p style="line-height:40%" ><span style="font-size:01.250em; font-weight: bold;" > Supports complex bus hierarchies</span></p>)
+<br>
+@snapend
+
+
+
+@snap[north span-80 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+@box[bg-lt-orange text-white rounded my-box-pad2  ](<p style="line-height:40%" ><span style="font-size:01.250em; font-weight: bold;" >Driver Binding Protocol matches drivers to devices, adds version management</span></p>)
+<br>
+@snapend
+
+
+
+@snap[north-west span-70 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+@box[bg-green2 text-white rounded my-box-pad2  ](<p style="line-height:40%" ><span style="font-size:01.250em; font-weight: bold;" > Supports specific hardware, can be unloaded or override an existing driver</span></p>)
+<br>
+@snapend
+
+
+
+
+
+
+
+Note:
+
+- An UEFI Loadable Image
+- May produce or consume protocols
+- Protocols are UEFI interfaces
+- Supports complex bus hierarchies
+- Driver Binding Protocol matches drivers to devices & adds version management
+- Supports specific hardware, can be unloaded or override an existing driver
 
 
 
