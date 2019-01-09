@@ -107,7 +107,7 @@ Note:
 <br>
 <br>
 <p style="line-height:50%" ><br>&nbsp;<br>&nbsp;</p>
-@box[bg-lt-orange text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" >Driver Binding Protocol matches drivers to devices, adds version management<br>&nbsp;</span></p>)
+@box[bg-gold2 text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" >Driver Binding Protocol matches drivers to devices, adds version management<br>&nbsp;</span></p>)
 <br>
 @snapend
 
