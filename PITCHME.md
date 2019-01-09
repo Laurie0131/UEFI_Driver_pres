@@ -586,9 +586,9 @@ Note:
 		<td  bgcolor="#404040" height=".02"><p style="line-height:010%"><span style="font-size:0.45em" >`EFI_PCI_IO_PROTOCOL`</span></p></td>
 	</tr>
 	<tr class="fragment">
-		<td  bgcolor="#FFFF99" height=".02"><p style="line-height:010%"><span style="font-size:0.45em" >`EFI_BLOCK_IO_PROTOCOL`</span></p></td>
+		<td  bgcolor="#7f7f7f" height=".02"><p style="line-height:010%"><span style="font-size:0.45em" >`EFI_BLOCK_IO_PROTOCOL`</span></p></td>
 	</tr>
-/table>
+</table>
 
 @snapend
 
