@@ -403,7 +403,7 @@ Determines if a driver supports a controller </span></p>
 <br>
 <br>
 <br>
-<p style="line-height:40%" align="left"><span style="font-size:02.250em;" >@fa[star  fa-lime] </span></p>
+<p style="line-height:40%" align="left"><span style="font-size:02.250em;" >@fa[star  gp-bullet-ltgreen] </span></p>
 @snapend
 
 @snap[north-east span-85 fragment]
