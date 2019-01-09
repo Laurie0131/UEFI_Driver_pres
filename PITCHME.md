@@ -403,7 +403,7 @@ Determines if a driver supports a controller </span></p>
 <br>
 <br>
 <br>
-<p style="line-height:40%" align="left"><span style="font-size:02.250em;" >@fa[star  gp-bullet-ltgreen] </span></p>
+<p style="line-height:40%" align="left"><span style="font-size:02.250em;" >@fa[star  fa-lime] </span></p>
 @snapend
 
 @snap[north-east span-85 fragment]
@@ -454,62 +454,12 @@ Note:
 - Start()
 - Stop()
 
-
----?image=/assets/images/slides/Slide35.JPG
-<!-- .slide: data-transition="none" -->
-@title[UEFI Driver Binding Protocol]
-<p align="center"><span class="gold" >UEFI Driver Binding Protocol</span></p>
-
-
-Note:
-
-- Supported ()
-- Start()
-- Stop()
-
-
-+++?image=/assets/images/slides/Slide36.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[UEFI Driver Binding Protocol 02]
-<p align="center"><span class="gold" >UEFI Driver Binding Protocol</span></p>
-
-
-Note:
-
-Supported() - Checks if a driver supports a controller
-Check should not change hardware state of controller 
-Minimize execution time, move complex I/O to Start()
-May be called for controller that is already managed
-Child is optionally specified
-
-
-
-+++?image=/assets/images/slides/Slide37.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[UEFI Driver Binding Protocol 03]
-<p align="center"><span class="gold" >UEFI Driver Binding Protocol</span></p>
-
-
-
-Note:
+Supported() - Checks if a driver supports a controller Check should not change hardware state of controller 
+Minimize execution time, move complex I/O to Start() May be called for controller that is already managed Child is optionally specified
 
 Start() - Starts a driver on a controller
 Can create ALL child handles or ONE child handle
 A driver is not required to support starting ONE child handle.  It may always create ALL child handles.
-
-
-
-
-+++?image=/assets/images/slides/Slide38.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[UEFI Driver Binding Protocol 04]
-<p align="center"><span class="gold" >UEFI Driver Binding Protocol</span></p>
-
-
-Note:
 
 Stop() - Stops a driver from managing a controller
 Destroys all specified child handles 
