@@ -396,6 +396,58 @@ Determines if a driver supports a controller </span></p>
 
 
 
+@snap[north-west span-20 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:40%" align="left"><span style="font-size:02.250em;" >@fa[star  gp-bullet-ltgreen] </span></p>
+@snapend
+
+@snap[north-east span-85 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:85%" align="left"><span style="font-size:01.25em; font-family:Consolas;" >@color[yellow](Start&lpar;&rpar;) </span> <span style="font-size:0.85em;" ><br> 
+Starts a driver on a controller &amp; Installs Protocols </span></p>
+@snapend
+
+
+
+@snap[north-west span-20 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:40%" align="left"><span style="font-size:02.250em;" >@fa[star  gp-bullet-gold] </span></p>
+@snapend
+
+@snap[north-east span-85 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:85%" align="left"><span style="font-size:01.25em; font-family:Consolas;" >@color[yellow](Stop&lpar;&rpar;) </span> <span style="font-size:0.85em;" ><br> 
+Stops a driver from managing a controller </span></p>
+@snapend
+
 Note:
 
 - Supported ()
