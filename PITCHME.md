@@ -495,6 +495,8 @@ Stopping a bus controller requires two calls
 @snap[west span-50 fragment]
 <br>
 <br>
+<br>
+<br>
 <ul style="list-style-type:none; line-height:0.7;">
 	<li><span style="font-size:0.7em" >1. @color[yellow](Opens) PCI_IO Protocol</span></li>
 	<li><span style="font-size:0.7em" >2. Checks</span></li>
@@ -508,15 +510,16 @@ Stopping a bus controller requires two calls
 @snap[north-east span-50 fragment]
 <br>
 <br>
-<p style="line-height:85%" align="left"><span style="font-size:0.9em" ><font color="cyan">Inputs:</font></span></p>
+<p style="line-height:85%" align="left"><span style="font-size:0.9em" ><font color="cyan">&nbsp;&nbsp;&nbsp;&nbsp;Inputs:</font></span></p>
 <ul style="list-style-type:disc; line-height:0.7;">
   <li><span style="font-size:0.7em" > “This”  </span></li>
   <li><span style="font-size:0.7em" >  Controller to manage</span></li>
-  <li><span style="font-size:0.7em" >  Remaining Device Path</span></li>
+  <li><span style="font-size:0.7em" >  Remaining Device Path&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
 </ul>
 @snapend
 
 @snap[east span-50 fragment]
+<br>
 <br>
 <br>
 <p style="line-height:85%" align="left"><span style="font-size:0.9em" ><font color="yellow">`Supported()`</font></span></p>
