@@ -497,11 +497,12 @@ Stopping a bus controller requires two calls
 <br>
 <br>
 <br>
+<p style="line-height:85%" align="left"><span style="font-size:0.9em" ><font color="cyan">Tasks:</font></span></p>
 <ul style="list-style-type:none; line-height:0.7;">
 	<li><span style="font-size:0.7em" >1. @color[yellow](Opens) PCI_IO Protocol</span></li>
 	<li><span style="font-size:0.7em" >2. Checks</span></li>
 	<li><span style="font-size:0.7em" >3. @color[yellow](Closes) PCI_IO Protocol</span></li>
-	<li><span style="font-size:0.7em" >4. Returns: Supported or Not Supported</span></li>
+	<li><span style="font-size:0.7em" >4. Returns: Supported or Not<br>&nbsp;&nbsp;&nbsp;&nbsp;Supported</span></li>
 </ul>
 @snapend
 
@@ -509,8 +510,7 @@ Stopping a bus controller requires two calls
 
 @snap[north-east span-50 fragment]
 <br>
-<br>
-<p style="line-height:85%" align="left"><span style="font-size:0.9em" ><font color="cyan">&nbsp;&nbsp;&nbsp;&nbsp;Inputs:</font></span></p>
+<p style="line-height:85%" align="left"><span style="font-size:0.9em" ><font color="cyan">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inputs:</font></span></p>
 <ul style="list-style-type:disc; line-height:0.7;">
   <li><span style="font-size:0.7em" > “This”  </span></li>
   <li><span style="font-size:0.7em" >  Controller to manage</span></li>
@@ -519,6 +519,8 @@ Stopping a bus controller requires two calls
 @snapend
 
 @snap[east span-50 fragment]
+<br>
+<br>
 <br>
 <br>
 <br>
