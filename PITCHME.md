@@ -478,7 +478,7 @@ Stopping a bus controller requires two calls
 @snap[north-west span-50]
 <br>
 <br>
-<table border="1" width="90%" bordercolor="#C0C0C0">
+<table id="recTable-90">
 	<tr>
        <td bgcolor="#121212" height=".025" align="center"><p style="line-height:010%"><span style="font-size:0.65em" ><b>PCI Controller Device Handle</b></span></p></td>
 	</tr>
