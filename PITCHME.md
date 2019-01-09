@@ -67,7 +67,7 @@ Note:
 @title[Defining a UEFI Driver?]
 <p align="right"><span class="gold" ><b>Defining a UEFI Driver?</b></span></p>
 
-@snap[north-west span-70 fragment]
+@snap[north-west span-60 fragment]
 <br>
 <br>
 @box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" > UEFI Loadable Image <br>&nbsp;</span></p>)
@@ -75,7 +75,7 @@ Note:
 @snapend
 
 
-@snap[north span-65 fragment]
+@snap[north-east span-65 fragment]
 <br>
 <br>
 <p style="line-height:50%" ><br><br>&nbsp;</p>
@@ -98,7 +98,7 @@ Note:
 
 
 
-@snap[north span-90 fragment]
+@snap[north-east span-90 fragment]
 <br>
 <br>
 <br>
