@@ -537,6 +537,63 @@ Stopping a bus controller requires two calls
 
 Note:
 
+---
+<!-- .slide: data-transition="none" -->
+@title[Start - PCI Controller Device Handle]
+<p align="right"><span class="gold" ><b>Start - PCI Controller Device Handle</b></span></p>
+
+
+
+
+
+
+@snap[north-east span-50 fragment]
+<br>
+<p style="line-height:85%" align="left"><span style="font-size:0.9em" ><font color="cyan">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inputs:</font></span></p>
+<ul style="list-style-type:disc; line-height:0.7;">
+  <li><span style="font-size:0.7em" > “This”  </span></li>
+  <li><span style="font-size:0.7em" >  Controller to manage</span></li>
+  <li><span style="font-size:0.7em" >  Remaining Device Path&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
+</ul>
+@snapend
+
+@snap[east span-50 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:85%" align="left"><span style="font-size:0.9em" ><font color="yellow">`Start()`</font></span></p>
+<ul style="list-style-type:disc; line-height:0.7;">
+   <li><span style="font-size:0.7em" > @color[yellow](Opens) PCI I/O Protocol </span></li>
+   <li><span style="font-size:0.7em" > Starts a driver on a controller</span></li>
+   <li><span style="font-size:0.7em" > Can create ALL child handles or ONE child handle (i.e. Call Install Library)</span></li>
+</ul>
+ 
+@snapend
+
+@snap[north-west span-50]
+<br>
+<br>
+<table id="recTable-90">
+	<tr>
+       <td bgcolor="#121212" height=".025" align="center"><p style="line-height:010%"><span style="font-size:0.65em" ><b>PCI Controller Device Handle</b></span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#404040" height=".02"><p style="line-height:010%"><span style="font-size:0.45em" >`EFI_DEVICE_PATH_PROTOCOL`</span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#404040" height=".02"><p style="line-height:010%"><span style="font-size:0.45em" >`EFI_PCI_IO_PROTOCOL`</span></p></td>
+	</tr>
+	<tr class="fragment">
+		<td  bgcolor="#FFFF99" height=".02"><p style="line-height:010%"><span style="font-size:0.45em" >`EFI_BLOCK_IO_PROTOCOL`</span></p></td>
+	</tr>
+/table>
+
+@snapend
+
+
+Note:
 
 ---?image=/assets/images/slides/Slide40.JPG
 @title[Supported - PCI Controller Device Handle]
