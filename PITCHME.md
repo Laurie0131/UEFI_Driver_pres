@@ -375,6 +375,29 @@ Note:
 Note:
 
 
+
+
+---
+@title[UEFI Driver Binding Protocol]
+<p align="center"><span class="gold" ><b>UEFI Driver Binding Protocol</b></span></p>
+
+
+
+@snap[north-west span-20 fragment]
+<br>
+<br>
+@fa[star fa-2x  gp-bullet-cyan]( <p style="line-height:85%" align="left"><span style="font-size:01.25em; font-family:Consolas;" >@color[yellow](Supported&lpar;&rpar;) </span> <span style="font-size:0.85em;" ><br> Determines if a driver supports a controller </span></p>)
+@snapend
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+test
+
 ---
 @title[UEFI Driver Binding Protocol]
 <p align="center"><span class="gold" ><b>UEFI Driver Binding Protocol</b></span></p>
