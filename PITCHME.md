@@ -508,6 +508,7 @@ Stopping a bus controller requires two calls
 @snap[north-east span-50 fragment]
 <br>
 <br>
+<p style="line-height:85%" align="left"><span style="font-size:0.9em" ><font color="cyan">Inputs:</font></span></p>
 <ul style="list-style-type:disc; line-height:0.7;">
   <li><span style="font-size:0.7em" > “This”  </span></li>
   <li><span style="font-size:0.7em" >  Controller to manage</span></li>
@@ -515,7 +516,7 @@ Stopping a bus controller requires two calls
 </ul>
 @snapend
 
-@snap[midpoint span-50 fragment]
+@snap[east span-50 fragment]
 <br>
 <br>
 <p style="line-height:85%" align="left"><span style="font-size:0.9em" ><font color="yellow">`Supported()`</font></span></p>
