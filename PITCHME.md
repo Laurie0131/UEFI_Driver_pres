@@ -621,19 +621,15 @@ Note:
 
 @snapend
 
-@snap[west span-50 fragment]
+@snap[north-east span-50 fragment]
 <br>
-<br>
-<br>
-<br>
-<p style="line-height:85%" align="left"><span style="font-size:0.9em" ><font color="cyan">Inputs:</font></span></p>
+<p style="line-height:85%" align="left"><span style="font-size:0.9em" ><font color="cyan">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inputs:</font></span></p>
 <ul style="list-style-type:disc; line-height:0.7;">
   <li><span style="font-size:0.7em" > “This”  </span></li>
   <li><span style="font-size:0.7em" >  Controller to manage</span></li>
   <li><span style="font-size:0.7em" >  Remaining Device Path&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
 </ul>
 @snapend
-
 
 
 
@@ -684,19 +680,16 @@ Note:
 
 @snapend
 
-@snap[west span-50 ]
+
+@snap[north-east span-50 ]
 <br>
-<br>
-<br>
-<br>
-<p style="line-height:85%" align="left"><span style="font-size:0.9em" ><font color="cyan">Inputs:</font></span></p>
+<p style="line-height:85%" align="left"><span style="font-size:0.9em" ><font color="cyan">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inputs:</font></span></p>
 <ul style="list-style-type:disc; line-height:0.7;">
   <li><span style="font-size:0.7em" > “This”  </span></li>
   <li><span style="font-size:0.7em" >  Controller to manage</span></li>
   <li><span style="font-size:0.7em" >  Remaining Device Path&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
 </ul>
 @snapend
-
 
 
 
