@@ -318,8 +318,8 @@ h6 {
   color: #300a24;
 }
 
-table#recTable-90{width:90%; border:1px solid gray;}
-#recTable-90 tr td {height:0.02px; border:1px solid gray;}
+table#recTable-90{width:90%; border:1px solid #0558ff;}
+#recTable-90 tr td {height:0.02px; border:1px solid #0558ff;}
 
 table#recTable{width:100%; border:1px solid gray;}
 #recTable tr td {height:0.2px; border:1px solid gray;}
