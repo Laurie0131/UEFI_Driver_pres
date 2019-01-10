@@ -717,43 +717,6 @@ Note:
 Note:
 
 
----?image=/assets/images/slides/Slide40.JPG
-@title[Supported - PCI Controller Device Handle]
-<p align="right"><span class="gold" >Supported - PCI Controller Device Handle</span></p>
-
-Note:
-
-
----?image=/assets/images/slides/Slide42.JPG
-<!-- .slide: data-transition="none" -->
-@title[Start - PCI Controller Device Handle]
-<p align="right"><span class="gold" >Start - PCI Controller Device Handle</span></p>
-
-Note:
-
-+++?image=/assets/images/slides/Slide43.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Start - PCI Controller Device Handle 02]
-<p align="right"><span class="gold" >Start - PCI Controller Device Handle</span></p>
-
-
-
-
----?image=/assets/images/slides/Slide45.JPG
-<!-- .slide: data-transition="none" -->
-@title[Start - PCI Controller Device Handle]
-<p align="right"><span class="gold" >Stop - PCI Controller Device Handle</span></p>
-
-Note:
-
-+++?image=/assets/images/slides/Slide46.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Stop - PCI Controller Device Handle 02]
-<p align="right"><span class="gold" >Stop - PCI Controller Device Handle</span></p>
-
-
 ---?image=assets/images/binary-strings-black2.jpg
 @title[UEFI Driver Example Section ]
 <br><br><br><br><br><br><br>
