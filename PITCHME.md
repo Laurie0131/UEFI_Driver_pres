@@ -595,6 +595,136 @@ Note:
 
 Note:
 
+
++++
+<!-- .slide: data-background-transition="none" -->
+<!-- .slide: data-transition="none" -->
+@title[Stop - PCI Controller Device Handle 02]
+<p align="right"><span class="gold" ><b>Stop - PCI Controller Device Handle</b></span></p>
+
+@snap[north-west span-50]
+<br>
+<br>
+<table id="recTable-90">
+	<tr>
+       <td bgcolor="#121212" height=".025" align="center"><p style="line-height:010%"><span style="font-size:0.65em" ><b>PCI Controller Device Handle</b></span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#404040" height=".02"><p style="line-height:010%"><span style="font-size:0.45em" >`EFI_DEVICE_PATH_PROTOCOL`</span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#404040" height=".02"><p style="line-height:010%"><span style="font-size:0.45em" >`EFI_PCI_IO_PROTOCOL`</span></p></td>
+	</tr>
+</table>
+
+@snapend
+
+@snap[west span-50 ]
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:85%" align="left"><span style="font-size:0.9em" ><font color="cyan">Inputs:</font></span></p>
+<ul style="list-style-type:disc; line-height:0.7;">
+  <li><span style="font-size:0.7em" > “This”  </span></li>
+  <li><span style="font-size:0.7em" >  Controller to manage</span></li>
+  <li><span style="font-size:0.7em" >  Remaining Device Path&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
+</ul>
+@snapend
+
+
+
+
+@snap[east span-50 ]
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:85%" align="left"><span style="font-size:0.9em" ><font color="yellow">`Stop()`</font></span></p>
+<ul style="list-style-type:disc; line-height:0.7;">
+   <li><span style="font-size:0.7em" > @color[yellow](Closes) PCI I/O Protocol </span></li>
+   <li><span style="font-size:0.7em" > Destroys all specified child handles (i.e. Call Uninstall)  </span></li>
+   <li><span style="font-size:0.7em" > If no children specified, controller is stopped </span></li>
+   <li><span style="font-size:0.7em" > Stopping a bus controller requires 2 calls </span></li>
+   <ul style="list-style-type:none; line-height:0.7;">
+		<li><span style="font-size:0.7em" > One call to stop the children.  A second call to stop the bus controller itself </span></li>
+   </ul>
+</ul>
+ 
+@snapend
+
+
+
+Note:
+
+
+---
+<!-- .slide: data-transition="none" -->
+@title[Stop - PCI Controller Device Handle]
+<p align="right"><span class="gold" ><b>Stop - PCI Controller Device Handle</b></span></p>
+
+@snap[north-west span-50]
+<br>
+<br>
+<table id="recTable-90">
+	<tr>
+       <td bgcolor="#121212" height=".025" align="center"><p style="line-height:010%"><span style="font-size:0.65em" ><b>PCI Controller Device Handle</b></span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#404040" height=".02"><p style="line-height:010%"><span style="font-size:0.45em" >`EFI_DEVICE_PATH_PROTOCOL`</span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#404040" height=".02"><p style="line-height:010%"><span style="font-size:0.45em" >`EFI_PCI_IO_PROTOCOL`</span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#7f7f7f" height=".02"><p style="line-height:010%"><span style="font-size:0.45em" >`EFI_BLOCK_IO_PROTOCOL`</span></p></td>
+	</tr>
+</table>
+
+@snapend
+
+@snap[west span-50 fragment]
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:85%" align="left"><span style="font-size:0.9em" ><font color="cyan">Inputs:</font></span></p>
+<ul style="list-style-type:disc; line-height:0.7;">
+  <li><span style="font-size:0.7em" > “This”  </span></li>
+  <li><span style="font-size:0.7em" >  Controller to manage</span></li>
+  <li><span style="font-size:0.7em" >  Remaining Device Path&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
+</ul>
+@snapend
+
+
+
+
+@snap[east span-50 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:85%" align="left"><span style="font-size:0.9em" ><font color="yellow">`Stop()`</font></span></p>
+<ul style="list-style-type:disc; line-height:0.7;">
+   <li><span style="font-size:0.7em" > @color[yellow](Closes) PCI I/O Protocol </span></li>
+   <li><span style="font-size:0.7em" > Destroys all specified child handles (i.e. Call Uninstall)  </span></li>
+   <li><span style="font-size:0.7em" > If no children specified, controller is stopped </span></li>
+   <li><span style="font-size:0.7em" > Stopping a bus controller requires 2 calls </span></li>
+   <ul style="list-style-type:none; line-height:0.7;">
+		<li><span style="font-size:0.7em" > One call to stop the children.  A second call to stop the bus controller itself </span></li>
+   </ul>
+</ul>
+ 
+@snapend
+
+
+
+Note:
+
+
+
 ---?image=/assets/images/slides/Slide40.JPG
 @title[Supported - PCI Controller Device Handle]
 <p align="right"><span class="gold" >Supported - PCI Controller Device Handle</span></p>
