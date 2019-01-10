@@ -728,7 +728,7 @@ Note:
 ---?image=/assets/images/slides/Slide48.JPG
 <!-- .slide: data-transition="none" -->
 @title[Example:  UEFI Driver - ScsiDiskDxe]
-<p align="right"><span class="gold" >Example:  UEFI Driver - ScsiDiskDxe</span></p>
+<p align="right"><span class="gold" ><b>Example:  UEFI Driver - ScsiDiskDxe</b></span></p>
 <br>
 @fa[github gp-bullet-black]<span style="font-size:0.7em">&nbsp;&nbsp;<a href="https://github.com/tianocore/edk2/tree/master/MdeModulePkg/Bus/Scsi/ScsiDiskDxe">edk2/MdeModulePkg/Bus/Scsi/ScsiDiskDxe</a></span><br>
 
@@ -748,7 +748,7 @@ Note:
 
 +++
 @title[Example:  UEFI Driver - ScsiDiskDxe 02 -2]
-<p align="right"><span class="gold" >Example:  UEFI Driver - ScsiDiskDxe</span></p>
+<p align="right"><span class="gold" ><b>Example:  UEFI Driver - ScsiDiskDxe</b></span></p>
 <br>
 ```php
 [Defines]
@@ -804,12 +804,14 @@ Note:
 
 ```
 
+@[8-8](Entry point function)
+
 Note:
 
 
 ---?image=/assets/images/slides/Slide50.JPG
 @title[Example:  UEFI Driver - ScsiDiskDxe 03 -1]
-<p align="right"><span class="gold" >Example:  UEFI Driver - ScsiDiskDxe</span></p>
+<p align="right"><span class="gold" ><b>Example:  UEFI Driver - ScsiDiskDxe</b></span></p>
 <br>
 @fa[github gp-bullet-black]<span style="font-size:0.7em">&nbsp;&nbsp;<a href="https://github.com/tianocore/edk2/tree/master/MdeModulePkg/Bus/Scsi/ScsiDiskDxe">edk2/MdeModulePkg/Bus/Scsi/ScsiDiskDxe</a></span><br>
 
@@ -820,7 +822,7 @@ Note:
 
 +++?code=sample/ScsiDiskDxe/ScsiDisk.h&lang=c++&title=Example:  ScsiDisk.h
 
-
+@[55-99]( UEFI Driver's Private Data Structure declaration)
 
 Note:
 
@@ -828,7 +830,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide51.JPG
 @title[Example:  UEFI Driver - ScsiDiskDxe 04 -1]
-<p align="right"><span class="gold" >Example:  UEFI Driver - ScsiDiskDxe</span></p>
+<p align="right"><span class="gold" ><b>Example:  UEFI Driver - ScsiDiskDxe</b></span></p>
 <br>
 @fa[github gp-bullet-black]<span style="font-size:0.7em">&nbsp;&nbsp;<a href="https://github.com/tianocore/edk2/tree/master/MdeModulePkg/Bus/Scsi/ScsiDiskDxe">edk2/MdeModulePkg/Bus/Scsi/ScsiDiskDxe</a></span><br>
 
@@ -838,6 +840,13 @@ Note:
 
 
 +++?code=sample/ScsiDiskDxe/ScsiDisk.c&lang=c++&title=Example:  ScsiDisk.c
+
+@[89-113]( Entry point, notice only Install of Binding and Component Name Protocol)
+@[134-174]( The Supported Function, Only Checks and returns Supported or Unsupported)
+@[196-204](Start Function Entry)
+@[318-329](Start calls Install of Multiple Protocols)
+@[394-402](Stop Function Entry)
+@[439-459](Stop Calls Un-install function matching the Start's Install)
 
 
 Note:
