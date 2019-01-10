@@ -841,6 +841,7 @@ Note:
 
 +++?code=sample/ScsiDiskDxe/ScsiDisk.c&lang=c++&title=Example:  ScsiDisk.c
 
+@[16-33](Module Data Structures for Binding Protocol and SCSI Dick Info Protocol - Produced)
 @[89-113]( Entry point, notice only Install of Binding and Component Name Protocol)
 @[134-174]( The Supported Function, Only Checks and returns Supported or Unsupported)
 @[196-204](Start Function Entry)
