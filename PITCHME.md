@@ -804,7 +804,7 @@ Note:
 
 ```
 
-@[8-8](Entry point function)
+@[8-9](Entry point function)
 
 Note:
 
