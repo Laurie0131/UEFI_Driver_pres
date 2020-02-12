@@ -77,7 +77,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide5_1.JPG
 @title[What are UEFI Drivers ?]
-<p align="right"><span class="gold" >@size[1.1em](<b>What are UEFI Drivers ? </b>)</span><br>
+<p align="left"><span class="gold" ><br>@size[1.1em](<b>What are UEFI Drivers ? </b>)</span><br>
 <span style="font-size:0.75em;" >  </span></p>
 
 @snap[south-east span-15 fragment ]
