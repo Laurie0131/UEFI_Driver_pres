@@ -80,8 +80,9 @@ Note:
 <p align="right"><span class="gold" >@size[1.1em](<b>What are UEFI Drivers ? </b>)</span><br>
 <span style="font-size:0.75em;" >  </span></p>
 
-@snap[south-east span-25 fragment ]
+@snap[south-east span-15 fragment ]
 ![Newblock](/assets/images/newBlock.png) 
+<br>
 <br>
 <br>
 <br>
@@ -94,20 +95,20 @@ Note:
 <br>
 <br>
 <br>
-<ul style="list-style-type:disc; line-height:0.7;">
-  <li><span style="font-size:0.7em;" >UEFI Drivers extend firmware  </span>   </li>
-  <li><span style="font-size:0.7em;" >Portable across platforms   </span>   </li>
-  <li><span style="font-size:0.7em;" >Enables rapid development  </span>   </li>
-  <li><span style="font-size:0.7em;" >Produce Protocols  </span>   </li>
+<br>
+<ul style="list-style-type:disc; line-height:0.8;">
+  <li><span style="font-size:0.87em;" >UEFI Drivers extend firmware  </span>   </li>
+  <li><span style="font-size:0.87em;" >Portable across platforms   </span>   </li>
+  <li><span style="font-size:0.87em;" >Enables rapid development  </span>   </li>
+  <li><span style="font-size:0.87em;" >Produce Protocols  </span>   </li>
 </ul>
 @snapend
 
 
-@snap[north-west span-60 fragment]
+@snap[south-west span-70 fragment]
 <br>
 <br>
 @box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%" align="center" ><span style="font-size:0.85em; font-weight: bold;" > UEFI driver is chained into a link lst of<br>@color[yellow](Drivers Managing Devices) <br>&nbsp;</span></p>)
-<br>
 @snapend
 
 
