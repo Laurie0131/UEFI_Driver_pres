@@ -81,7 +81,7 @@ Note:
 <span style="font-size:0.75em;" >  </span></p>
 
 @snap[south-east span-15 fragment ]
-<p style="line-height:30%" align="left" ><span style="font-size:0.37em;" >New UEFI Driver</span></p>
+<p style="line-height:40%" align="left" ><span style="font-size:0.57em;" >New UEFI Driver</span></p>
 ![Newblock](/assets/images/newBlock.png) 
 <br>
 <br>
@@ -97,7 +97,8 @@ Note:
 <br>
 <br>
 <br>
-<ul style="list-style-type:disc; line-height:0.8;">
+<br>
+<ul style="list-style-type:disc; line-height:0.9;">
   <li><span style="font-size:0.87em;" >UEFI Drivers extend firmware  </span>   </li>
   <li><span style="font-size:0.87em;" >Portable across platforms   </span>   </li>
   <li><span style="font-size:0.87em;" >Enables rapid development  </span>   </li>
@@ -110,6 +111,7 @@ Note:
 <br>
 <br>
 @box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%" align="center" ><span style="font-size:0.85em; font-weight: bold;" > UEFI driver is chained into a link lst of<br>@color[yellow](Drivers Managing Devices) <br>&nbsp;</span></p>)
+<br>
 @snapend
 
 
