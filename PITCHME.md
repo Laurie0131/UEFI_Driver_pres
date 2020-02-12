@@ -81,6 +81,7 @@ Note:
 <span style="font-size:0.75em;" >  </span></p>
 
 @snap[south-east span-15 fragment ]
+<p style="line-height:30%" align="left" ><span style="font-size:0.37em;" >New UEFI Driver</span></p>
 ![Newblock](/assets/images/newBlock.png) 
 <br>
 <br>
